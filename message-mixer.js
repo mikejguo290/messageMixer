@@ -1,8 +1,9 @@
 // Import the functions from encryptors.js here.
-
+const encryptors=require('./encryptors');
 // Encryption Functions
 /////////////////////////////////////////////
 
+const {caesarCipher,symbolCipher,reverseCipher,}=encryptors;
   
   // User Input / Output Logic
   /////////////////////////////////////////////
